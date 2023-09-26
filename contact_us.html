@@ -19,13 +19,21 @@
 			</div>
 
 			<div class="form-wrapper">
-				<form name="contact_us_form" method="POST" data-netlify="true" action="submit_form.php" class="form-layout">
+				<!-- <form action="submit_form.php" class="form-layout">
 					<input type="text" placeholder="What's your name?" />
 					<input type="email" placeholder="What's your email?" />
-					<!-- <input type="textarea" placeholder="Leave us a message?" class="message-input" />-->
 					<textarea placeholder="Leave us a message." class="message-input"></textarea>
 					<input type="button" value="Submit" class="contact-button" />
+				</form> -->
+
+				<form name="contact_us_form" method="POST" data-netlify="true" class="form-layout">
+					<input type="text" name="name" placeholder="What's your name?" />
+					<input type="email" name="email" placeholder="What's your email?" />
+					<textarea name="message" placeholder="Leave us a message." class="message-input"></textarea>
+					<input type="submit" value="Submit" class="contact-button" />
 				</form>
+
+				
 			</div>
 		</div>
 
