@@ -646,6 +646,11 @@ input {
 	border-radius: 8px;
 }
 
+.contact-button:hover {
+	background-color: #53917e;
+	cursor: pointer;
+}
+
 @media only screen and (max-width: 485px) {
 	.contact-us_container {
 		flex-direction: column;
